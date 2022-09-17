@@ -6,8 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="/kaleidoscope/favicon.ico"/>
-  <title>张自来的个人笔记</title>
-  <style type="text/css"></style>
+  <title>我的笔记</title>
+  <style type="text/css">
+    .typing {
+      max-width: fit-content;
+      height: 1.25em;
+      border-right: 1px solid transparent;
+      animation: typing 10s steps(36, end), blink-caret .75s step-end infinite;
+      word-break: break-all;
+      overflow: hidden;
+    }
+
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: currentColor; }
+    }
+  </style>
   
   <script src="https://giscus.app/client.js"
         data-repo="zidekuls/kaleidoscope"
@@ -29,7 +48,7 @@
 </head>
 
 <body>
-  <div class="typing">开始记录吧！</div>
+  <h3 class="typing">开始记录吧！</h3>
   <section class="giscus"></section>
 </body>
 </html>
