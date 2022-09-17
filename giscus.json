@@ -1,6 +1,6 @@
 {
   "originsRegex": [
-    "https://.*zidekuls.*\\.io/kaleidoscope"
+    "https://.*\\bzidekuls\\b.*\\.io"
   ],
   "defaultCommentOrder": "newest"
 }
