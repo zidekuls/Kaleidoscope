@@ -1,6 +1,7 @@
 {
   "originsRegex": [
-    "https://.*\\bzidekuls\\b.*\\.io"
+    "https://.*\\bzidekuls\\b.*\\.io",
+    "https://.*\\blight\\b.*\\.lionfree\\.net"
   ],
   "defaultCommentOrder": "newest"
 }
